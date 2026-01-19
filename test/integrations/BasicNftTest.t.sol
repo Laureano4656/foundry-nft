@@ -9,7 +9,7 @@ import {BasicNft} from "../../src/BasicNft.sol";
 contract BasicNftTest is Test {
     BasicNft private basicNft;
     DeployBasicNft private deployer;
-    address private USER = makeAddr("user");
+    address private USER = makeAddr("laureano_user_123");
     string private constant NFT_NAME = "Dogie";
     string public constant PUG_URI =
         "ipfs://bafybeig37ioir76s7mg5oobetncojcm3c3hxasyd4rvid4jqhy4gkaheg4/?filename=0-PUG.json";
